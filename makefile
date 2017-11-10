@@ -7,7 +7,7 @@ LINES=` cat guessinggame.sh | wc -l`
 readme:
 	@echo "## Project: Guessing Game" > ${OUTFILE}
 	@echo "" >> ${OUTFILE}
-	@echo "**File Created**: ${MDATE}" >> ${OUTFILE}
+	@echo "**make run**: ${MDATE}" >> ${OUTFILE}
 	@echo "" >> ${OUTFILE}
 	@echo "**Lines in guessinggame.sh**: ${LINES}" >> ${OUTFILE}
 	@echo "" >> ${OUTFILE}
